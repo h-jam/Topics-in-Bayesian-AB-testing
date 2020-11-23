@@ -21,3 +21,7 @@ Nested sampling
 ## Acknowledgements
 
 I would like to thank Brendon J. Brewer for his contributions to this project. 
+
+## Disclaimer 
+
+This repo is a public version of the research project I did as fulfillemnt of my Master of Science in Statistics. This is not a package, rather a collection of code to run the methods. I hope to maintain an improve the code overtime, but I'm not a software developer. All examples are compltely made up, but the data reflects experience with AB testing in industry --so should be somewhat useful. All work is entirely my own in conjucntion with the University of Auckland, and in no way represents the data, interests or opinions of my employers past and present. 
