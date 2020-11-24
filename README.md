@@ -12,15 +12,15 @@ the “cost” of picking a poor prior distribution in small sample sizes.
 
 ### JAGS 
 
-JAGS[http://mcmc-jags.sourceforge.net] is Just Another Gibbs Sampler.  It is a program for analysis of Bayesian models using Markov Chain Monte Carlo (MCMC). 
+[JAGS](http://mcmc-jags.sourceforge.net) is Just Another Gibbs Sampler.  It is a program for analysis of Bayesian models using Markov Chain Monte Carlo (MCMC). 
 
-You can download JAGS here[https://sourceforge.net/projects/mcmc-jags/files] and use in in R with the Rjags[https://cran.r-project.org/web/packages/rjags/index.html] package.
+You can download JAGS [here](https://sourceforge.net/projects/mcmc-jags/files) and use in in R with the [Rjags}(https://cran.r-project.org/web/packages/rjags/index.html) package.
 
 ### Nested Sampling
 
 Nested sampling by physicist John Skilling[[1]](#1) is another algorithm which we can use for analysis of Bayesian models. The actual goal of nested sampling is the marginal likelihood or evidence. 
 
-We provide code to run nested sampling courtesey of Brendon J. Brewer[https://github.com/eggplantbren/NSwMCMC] [[2]](#1)
+We provide code to run nested sampling courtesey of [Brendon J. Brewer](https://github.com/eggplantbren/NSwMCMC) [[2]](#1)
 
 ## Notebooks
 Clone the repo and follow the tutorials in the notebook folder. Everything you need to try out Bayesian AB testing! 
@@ -32,8 +32,10 @@ Clone the repo and run the code in each example folder for youself. Try your own
 Read the full report for the project in the pdf. 
 
 ## References 
-
 <a id="1">[1]</a> 
+Skilling, J. (2004, November). Nested sampling. In AIP Conference Proceedings (Vol. 735, No. 1, pp. 395-405). American Institute of Physics.
+
+<a id="2">[1]</a> 
 Bayesian Inference and Computation: A Beginner’s Guide
 Brendon J. Brewer, in Bayesian Astrophysics 26, 1, Cambridge University Press
 
