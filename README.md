@@ -2,19 +2,15 @@
 Priors, Binomial and Survival models for Bayiesan AB Testing using JAGS and Nested sampling in R.
 
 ## About 
-Bayesian AB testing is becoming a popular alternative to Frequentist methods and
-p-values. Current methods of Bayesian AB testing in industry underutilise the ability to
-fully model prior distributions and likelihoods to the experiment problem. This repository we
-use a dependent prior for conversion parameters between treatment groups
-and develop likelihoods to model time to event outcomes. Additionally, we demonstrate
-how using the prior expectation of the posterior expected loss can be used to estimate
-the “cost” of picking a poor prior distribution in small sample sizes.
+Bayesian AB testing is becoming a popular alternative to Frequentist methods and p-values. Current methods of Bayesian AB testing in industry underutilise the ability to fully model prior distributions and likelihoods to the experiment problem. This repository we use a dependent prior for conversion parameters between treatment groups and develop likelihoods to model time to event outcomes. Additionally, we demonstrate how using the prior expectation of the posterior expected loss can be used to estimate the “cost” of picking a poor prior distribution in small sample sizes.
+
+We bypass analytics methods and use two simulation methods to perform our Bayesian analysis: 
 
 ### JAGS 
 
 [JAGS](http://mcmc-jags.sourceforge.net) is Just Another Gibbs Sampler.  It is a program for analysis of Bayesian models using Markov Chain Monte Carlo (MCMC). 
 
-You can download JAGS [here](https://sourceforge.net/projects/mcmc-jags/files) and use in in R with the [Rjags}(https://cran.r-project.org/web/packages/rjags/index.html) package.
+You can download JAGS [here](https://sourceforge.net/projects/mcmc-jags/files) and use in in R with the [Rjags](https://cran.r-project.org/web/packages/rjags/index.html) package.
 
 ### Nested Sampling
 
@@ -36,8 +32,7 @@ Read the full report for the project in the pdf.
 Skilling, J. (2004, November). Nested sampling. In AIP Conference Proceedings (Vol. 735, No. 1, pp. 395-405). American Institute of Physics.
 
 <a id="2">[1]</a> 
-Bayesian Inference and Computation: A Beginner’s Guide
-Brendon J. Brewer, in Bayesian Astrophysics 26, 1, Cambridge University Press
+Bayesian Inference and Computation: A Beginner’s Guide. Brendon J. Brewer, in Bayesian Astrophysics 26, 1, Cambridge University Press
 
 ## Acknowledgements
 
