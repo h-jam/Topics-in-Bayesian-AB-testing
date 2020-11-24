@@ -1,10 +1,10 @@
 # Topics-in-Bayesian-AB-testing
-Priors, Binomial and Survival models for Bayiesan AB Testing using JAGS and nested sampling in R.
+Priors, Binomial and Survival models for Bayesian AB Testing using JAGS and nested sampling in R.
 
 ## About 
-Bayesian AB testing is becoming a popular alternative to Frequentist methods and p-values. Current methods of Bayesian AB testing in industry underutilise the ability to fully model prior distributions and likelihoods to the experiment problem. This repository we use a dependent prior for conversion parameters between treatment groups and develop likelihoods to model time to event outcomes. Additionally, we demonstrate how using the prior expectation of the posterior expected loss can be used to estimate the “cost” of picking a poor prior distribution in small sample sizes.
+Bayesian AB testing is becoming a popular alternative to Frequentest methods and p-values. Current methods of Bayesian AB testing in industry under utilise the ability to fully model prior distributions and likelihoods to the experiment problem. This repository we use a dependent prior for conversion parameters between treatment groups and develop likelihoods to model time to event outcomes. Additionally, we demonstrate how using the prior expectation of the posterior expected loss can be used to estimate the “cost” of picking a poor prior distribution in small sample sizes.
 
-We bypass analytics methods and use two simulation methods to perform our Bayesian analysis: 
+We bypass analytic methods and use two simulation methods to perform our Bayesian analysis: 
 
 ### JAGS 
 
@@ -16,7 +16,7 @@ You can download JAGS [here](https://sourceforge.net/projects/mcmc-jags/files) a
 
 Nested sampling by physicist John Skilling[[1]](#1) is another algorithm which we can use for analysis of Bayesian models. The actual goal of nested sampling is the marginal likelihood or evidence. 
 
-We provide code to run nested sampling courtesey of [Brendon J. Brewer](https://github.com/eggplantbren/NSwMCMC) [[2]](#1)
+We provide code to run nested sampling courtesy of [Brendon J. Brewer](https://github.com/eggplantbren/NSwMCMC) [[2]](#1)
 
 ## How to use this repo
 
@@ -24,7 +24,7 @@ We provide code to run nested sampling courtesey of [Brendon J. Brewer](https://
 Clone the repo and follow the tutorials in the notebook folder. Everything you need to try out Bayesian AB testing! 
 
 ### Download the Code
-Clone the repo and run the code in each example folder for youself. Try your own datatsets! 
+Clone the repo and run the code in each example folder for yourself. Try your own datatsets! 
 
 ### Read the Report
 Read the full report for the project in the pdf. 
@@ -36,7 +36,7 @@ I would like to thank Brendon J. Brewer for his contributions to this project.
 
 ## Disclaimer 
 
-This repo is a public version of the research project I did as fulfillemnt of my Master of Science in Statistics. This is not a package, rather a collection of code to run the methods. I hope to maintain an improve the code overtime, but I'm not a software developer. All examples are compltely made up, but the data reflects experience with AB testing in industry -so should be somewhat useful. All work is entirely my own in conjucntion with the University of Auckland, and in no way represents the data, interests or opinions of my employers past and present. 
+This repo is a public version of the research project I did as fulfillment of my Master of Science in Statistics. This is not a package, rather a collection of code to run the methods. I hope to maintain an improve the code overtime, but I'm not a software developer. All examples are completely made up, but the data reflects experience with AB testing in industry -so should be somewhat useful. All work is entirely my own in conjunction with the University of Auckland, and in no way represents the data, interests or opinions of my employers past and present. 
 
 ## References
 <a id="1">[1]</a> 
