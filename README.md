@@ -42,7 +42,7 @@ This repo is a public version of the research project I did as fulfillemnt of my
 <a id="1">[1]</a> 
 [Skilling, J. (2004, November). Nested sampling. In AIP Conference Proceedings (Vol. 735, No. 1, pp. 395-405). American Institute of Physics.](https://projecteuclid.org/euclid.ba/1340370944)
 
-<a id="2">[1]</a> 
+<a id="2">[2]</a> 
 [Bayesian Inference and Computation: A Beginner’s Guide. Brendon J. Brewer, in Bayesian Astrophysics 26, 1, Cambridge University Press](https://odysee.com/@BrendonBrewer:3/wsbook:f)
 
 [Kruschke, J. K. (2013). Bayesian estimation supersedes the t test. Journal of Experimental Psychology: General, 142(2), 573.](https://mran.microsoft.com/snapshot/2017-04-30/web/packages/BEST/vignettes/BEST.pdf)
