@@ -2,7 +2,7 @@
 Priors, Binomial and Survival models for Bayesian AB Testing using JAGS and nested sampling in R.
 
 ## About 
-Bayesian AB testing is becoming a popular alternative to Frequentest methods and p-values. Current methods of Bayesian AB testing in industry under utilise the ability to fully model prior distributions and likelihoods to the experiment problem. This repository we use a dependent prior for conversion parameters between treatment groups and develop likelihoods to model time to event outcomes. Additionally, we demonstrate how using the prior expectation of the posterior expected loss can be used to estimate the “cost” of picking a poor prior distribution in small sample sizes.
+Bayesian AB testing is becoming a popular alternative to Frequentist methods and p-values. Current methods of Bayesian AB testing in industry under utilise the ability to fully model prior distributions and likelihoods to the experiment problem. This repository we use a dependent prior for conversion parameters between treatment groups and develop likelihoods to model time to event outcomes. Additionally, we demonstrate how using the prior expectation of the posterior expected loss can be used to estimate the “cost” of picking a poor prior distribution in small sample sizes.
 
 We bypass analytic methods and use two simulation methods to perform our Bayesian analysis: 
 
@@ -29,7 +29,6 @@ Clone the repo and run the code in each example folder for yourself. Try your ow
 ### Read the Report
 Read the full report for the project in the pdf. 
 
-
 ## Acknowledgements
 
 I would like to thank Brendon J. Brewer for his contributions to this project. 
@@ -50,6 +49,3 @@ This repo is a public version of the research project I did as fulfillment of my
 [O'Hagan, A., & Forster, J. J. (2004). Kendall's advanced theory of statistics, volume 2B: Bayesian inference (Vol. 2). Arnold.](https://www.amazon.com/Advanced-Theory-Statistics-Vol-Inference/dp/0340807520/)
 
 [Stucchio, C. (2015). Bayesian A/B Testing at VWO. Whitepaper, Visual Website Optimizer.](https://cdn2.hubspot.net/hubfs/310840/VWO_SmartStats_technical_whitepaper.pdf)
-
-
-
