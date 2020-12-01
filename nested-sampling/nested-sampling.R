@@ -1,7 +1,7 @@
 t <- Sys.time()
 
 # Import the model and some functions
-source("nested-sampling/utils.R")
+# source("nested-sampling/utils.R")
 
 # Number of particles
 num_particles = 100
