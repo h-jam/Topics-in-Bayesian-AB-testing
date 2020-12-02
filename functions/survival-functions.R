@@ -106,7 +106,7 @@ q_surv <- function(df, q = 0.5){
   }
   
   p <- c(0.025, 0.5, 0.975)
-  t <- list(group_a = quantile(med_a, p), group_b = quantile(med_b, p))
+  t <- list(group_a = round(quantile(med_a, p),5),  group_b = round(quantile(med_b, p),5))
   
   return(t)
 }
