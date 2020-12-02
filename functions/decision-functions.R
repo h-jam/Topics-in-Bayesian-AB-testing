@@ -82,7 +82,7 @@ ptbb <- function(posteriorA, posteriorB){
 p_summary <- function(df){
   
   s <- function(x){
-    c(mean(x), sd(x))
+    c(round(mean(x),5), round(sd(x),5))
   }
   
   a <- apply(df, 2, s)
