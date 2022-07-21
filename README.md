@@ -27,7 +27,7 @@ Clone the repo and follow the tutorials in the notebook folder. Everything you n
 Clone the repo and run the code in each example folder for yourself. Try your own datatsets! 
 
 ### Read the Report
-Read the full report for the project in the pdf. 
+Read the full report for the project in the [pdf](https://github.com/h-jam/Topics-in-Bayesian-AB-testing/blob/main/masters-dissertation-hannah-jamieson.pdf). 
 
 ## Acknowledgements
 
